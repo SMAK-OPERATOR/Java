@@ -22,6 +22,9 @@ public class go {
                     case 4:
                         FourthTask();
                         break;
+                    case 5:
+                        FifthTask();
+                        break;
                     default:
                         System.out.println("\nYou entered the wrong number, try again");
                         break;
@@ -100,5 +103,18 @@ public class go {
             else if((arr[i] == 2) || (arr[i] == 3))
                 System.out.print(arr[i]+" ");
         }
+    }
+
+    public static void FifthTask(){
+        Scanner in = new Scanner(System.in);
+        int[] f = new int[40];
+        f[0] = 0;
+        f[1] = 1;
+        for(int i = 2;i != 40;i++){
+            f[i] = f[i-1] + f[i-2];
+        }
+        System.out.println("Enter N");
+        int n = in.nextInt();
+        System.out.println("Fibonacci number "+n+" = "+f[n-1]);
     }
 }
