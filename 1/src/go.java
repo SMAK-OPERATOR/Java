@@ -16,6 +16,12 @@ public class go {
                     case 2:
                         SecondTask();
                         break;
+                    case 3:
+                        ThirdTask();
+                        break;
+                    case 4:
+                        FourthTask();
+                        break;
                     default:
                         System.out.println("\nYou entered the wrong number, try again");
                         break;
@@ -56,4 +62,43 @@ public class go {
         System.out.println("\nSumm = "+avg+"\n");
     }
 
+    public static void ThirdTask(){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter size of the array\n");
+        int n = in.nextInt();
+        int[] valera = new int[n];
+        for(int i = 0;i != n;i++){
+            valera[i] = (int)(Math.random()*10);
+            System.out.print(valera[i] + " ");
+        }
+        System.out.println();
+        int m;
+        int l = -1;
+        for(int i = 0;i != n;i++){
+            int min = 11;
+            for(int j = i;j != n; j++)
+            {
+                if(min > valera[j]) {
+                    min = valera[j];
+                    l = j;
+                }
+            }
+            m = valera[i];
+            valera[i] = min;
+            valera[l] = m;
+            System.out.print(valera[i] + " ");
+        }
+    }
+
+    public static void FourthTask(){
+        Scanner in = new Scanner(System.in);
+        int[] arr = new int[101];
+        for(int i = 2;i!=101;i++){
+            arr[i] = i;
+            if(((arr[i]%3) != 0) && ((arr[i] % 2) != 0))
+                System.out.print(arr[i]+" ");
+            else if((arr[i] == 2) || (arr[i] == 3))
+                System.out.print(arr[i]+" ");
+        }
+    }
 }
