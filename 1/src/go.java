@@ -98,9 +98,9 @@ public class go {
         int[] arr = new int[101];
         for(int i = 2;i!=101;i++){
             arr[i] = i;
-            if(((arr[i]%3) != 0) && ((arr[i] % 2) != 0))
+            if(((arr[i]%3) != 0) && ((arr[i] % 2) != 0) && ((arr[i] % 5) != 0) && ((arr[i] % 7) != 0))
                 System.out.print(arr[i]+" ");
-            else if((arr[i] == 2) || (arr[i] == 3))
+            else if((arr[i] == 2) || (arr[i] == 3) || (arr[i] == 5) || (arr[i] == 7))
                 System.out.print(arr[i]+" ");
         }
     }
