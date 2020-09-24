@@ -9,25 +9,13 @@ public class go {
             g = in.nextInt();
             if (g!=0)
             {
-                switch (g){
-                    case 1:
-                        FirstTask();
-                        break;
-                    case 2:
-                        SecondTask();
-                        break;
-                    case 3:
-                        ThirdTask();
-                        break;
-                    case 4:
-                        FourthTask();
-                        break;
-                    case 5:
-                        FifthTask();
-                        break;
-                    default:
-                        System.out.println("\nYou entered the wrong number, try again");
-                        break;
+                switch (g) {
+                    case 1 -> FirstTask();
+                    case 2 -> SecondTask();
+                    case 3 -> ThirdTask();
+                    case 4 -> FourthTask();
+                    case 5 -> FifthTask();
+                    default -> System.out.println("\nYou entered the wrong number, try again");
                 }
             }
         }while (g != 0);
@@ -115,6 +103,6 @@ public class go {
         }
         System.out.println("Enter N");
         int n = in.nextInt();
-        System.out.println("Fibonacci number "+n+" = "+f[n-1]);
+        System.out.println("Fibonacci number "+n+" is "+f[n-1]);
     }
 }
