@@ -15,6 +15,8 @@ public class go {
                     case 3 -> ThirdTask();
                     case 4 -> FourthTask();
                     case 5 -> FifthTask();
+                    case 6 -> SixthTask();
+                    case 7 -> SeventhTask();
                     default -> System.out.println("\nYou entered the wrong number, try again");
                 }
             }
@@ -104,5 +106,51 @@ public class go {
         System.out.println("Enter N");
         int n = in.nextInt();
         System.out.println("Fibonacci number "+n+" is "+f[n-1]);
+    }
+
+    public static void SixthTask(){
+        Scanner in = new Scanner(System.in);
+        int k = 10;
+        int[] arr = new int[k];
+        int[] arr2 = new int[k];
+        for(int i = 0;i != k;i++){
+            arr[i] = (int)(Math.random()*10);
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println("Enter number to be disappeared");
+        int n = in.nextInt();
+        int j = 0;
+        for(int i = 0;i != k;i++)
+        {
+            if(arr[i] != n)
+            {
+                arr2[j] = arr[i];
+                System.out.print(arr2[j] + " ");
+                j++;
+            }
+        }
+    }
+
+    public static void SeventhTask(){
+        Scanner in = new Scanner(System.in);
+        int k = 11;
+        int[] arr = new int[k];
+        for(int i = 0;i != k;i++){
+            arr[i] = (int)(Math.random()*10);
+            System.out.print(arr[i] + " ");
+        }
+        boolean m = false;
+        for(int i = 0;i != k;i++){
+            m = true;
+            for(int j = k;j != 0;j--){
+                if((j != i)&&(arr[i] == arr[j])){
+                    m = false;
+                }
+            }
+            if(m == true){
+                System.out.println(arr[i]+"is the first unique number");
+                break;
+            }
+        }
     }
 }
