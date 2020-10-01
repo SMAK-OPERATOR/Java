@@ -12,7 +12,7 @@ public class Main {
                 "\nAngle between vector 1 and 2 is "+Vector.angle(vector1,vector2)
         );
         System.out.println("Vector product of vector 1 and 2 is "+Vector.vect(vector1,vector2));
-        System.out.println("Vector 1 minus vector 2 is "+Vector.plus(vector1,vector2)+"\n"+"Vector 2 minus vector 1 is "+Vector.minus(vector2,vector1));
+        System.out.println("Vector 1 plus vector 2 is "+Vector.plus(vector1,vector2)+"\n"+"Vector 2 minus vector 1 is "+Vector.minus(vector2,vector1));
         Scanner in = new Scanner(System.in);
         System.out.println("Enter n:");
         int n = in.nextInt();

@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7cae7f4-4a29-4577-8e16-92a95be95fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1/1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2/git reps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/src/go.class" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/go.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/src/go.java" beforeDir="false" afterPath="$PROJECT_DIR$/1/src/go.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git reps.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="b7cae7f4-4a29-4577-8e16-92a95be95fa2" name="Default Changelist" comment="2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,8 +71,16 @@
       <option name="presentableId" value="Default" />
       <updated>1601552416021</updated>
       <workItem from="1601552417096" duration="1274000" />
-      <workItem from="1601555422849" duration="643000" />
+      <workItem from="1601555422849" duration="1002000" />
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1601556147804</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601556147804</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,10 +98,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601552477358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601552477358" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601556153886">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601556153886" />
   </component>
 </project>
