@@ -18,7 +18,7 @@ public class UserEntityManager {
     {
         try(Connection c = database.getConnection())
         {
-            String sql = "INSERT INTO users(login, password,age,job) values(?,?,?,?)";
+            String sql = "INSERT INTO user(login, password,age,job) values(?,?,?,?)";
             PreparedStatement s = c.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS);
             s.setString(1, user.getLogin());
             s.setString(2, user.getPassword());
